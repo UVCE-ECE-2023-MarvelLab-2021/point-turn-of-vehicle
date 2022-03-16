@@ -3,13 +3,21 @@
 ## Introduction
 An object is said to have done a point turn if it rotates about an axis passing through the centre of the object.
 The earth rotating about its axis can be considered to be point turn.
+
 </br>
-![This is an image](images/giphy.gif)
+<p align="center">
+  <img src="images/giphy.gif" alt="Sublime's custom image"/>
+</p>
 </br>
+
 Here we have built a bot controlled by an arduino on-board to make a point turn.
 Here we are using point turn to change the direction that our arduino bot is facing so as to make a quick turn.
 
-![This is an image](images/images.jpg)
+</br>
+<p align="center">
+  <img src="images/images.jpg" alt="Sublime's custom image"/>
+</p>
+</br>
 
 ## Working
 An android app is used here to send commands over to the arduino using bluetooth interface with the help of a bluetooth module connected to the arduino.We will not going into the details of the android app as it will be discussed in a later project.
