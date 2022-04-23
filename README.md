@@ -40,7 +40,7 @@ An Arduino uno has 6 PWM output pins (3,5,6,9,10,11) labeled with ~ sign. PWM si
 ## Working
 The working of a vehicle carrying out a point turn is simple. The Arduino sends a PWM signal to the L298N motor driver input pin which in turn drives the set of wheels on one side of the vehicle in clockwise direction. The Arduino send another PWM signal and the motor driver drives the other set of wheels in anticockwise direction.
 </br>
-The required direction in which the vehicle turns about is axis of rotation can be set by determining which set of wheels will rotate in clockwise direction and setting the other set in anticlockwise direction.
+The required direction in which the vehicle turns about is axis of rotation can be set by determining which set of wheels will rotate in clockwise direction and then driving the other set of wheels in anticlockwise direction.
 
 ## Code
 Code used to program the arduino
@@ -55,7 +55,7 @@ void setup() {
   // setting PWM output pins for controlling dc motors
   pinMode(5,OUTPUT);
   pinMode(6,OUTPUT);
-  Serial.begin(9600); // Communication rate of the Bluetooth Module
+  Serial.begin(9600); // for debugging
 }
 
 void loop() {
